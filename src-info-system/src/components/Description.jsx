@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Description = () => {
   return (
@@ -21,20 +22,23 @@ const Description = () => {
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bi bi-card-checklist"></i></div>
-              <h4 class="title"><a href="#">SRC News </a></h4>
-              <p class="description">Teacher rating is one of the topics that has been widely studied over the years, which needs relevant attention by our educational administrative institutions.</p>
+              <h4 class="title"><Link to="/news">SRC News </Link></h4>
+              <p class="description">Stay up-to-date with the latest news and updates from the SRC Info System. Our news section provides you with valuable insights, latest announcements, and important developments.Check back regularly to ensure you don't miss any of the exciting news and updates from SRC Info System!</p>
+              {/* <p class="description">Teacher rating is one of the topics that has been widely studied over the years, which needs relevant attention by our educational administrative institutions.</p> */}
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bi bi-brightness-high"></i></div>
-              <h4 class="title"><a href="#">Students Feedback</a></h4>
-              <p class="description">Students can give feedback as easy and stressfree as possible. This encourages both the lecturers and students to enhance Teaching and Learning. </p>
+              <h4 class="title"><a href="#">Students Problems</a></h4>
+              <p class="description">We care about your concerns and challenges. At SRC Info System, we provide a platform where students can voice their issues, share concerns, or seek assistance for any problems they may be facing. Our dedicated SRC (Student Representative Council) team is here to listen, support, and help resolve your concerns. </p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-              <h4 class="title"><a href="#">Improves Productivity</a></h4>
-              <p class="description">This system also improve the productivity of the student and the lecturers by regular feedback, which gives the lecturer dynamic style of engaging and giving the students the best information.</p>
+              <h4 class="title"><a href="#">Student Timetable</a></h4>
+              <p class="description">Our Student Timetable feature is designed to make your life as a student easier and more organized. Say goodbye to missed classes and assignment deadlines – keep everything in one place and stay on top of your academic commitments.
+
+</p>
             </div>
 
           </div>

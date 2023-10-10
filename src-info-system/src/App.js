@@ -13,6 +13,7 @@ import { BrowserRouter as Router ,
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import News from "./pages/News";
+import Vote from "./pages/Vote";
 
 function App() {
   const user=true;
@@ -24,6 +25,8 @@ function App() {
         <Route  path="/dashboard" element={<Dashboard />}/>
         <Route  path="/about" element={<About/>}/>
         <Route  path="/contact" element={<Contact />}/>
+        <Route  path="/vote" element={<Vote />}/>
+
         <Route  path="/login" element={user? <Navigate to="/"/> :  <Login />}/>
         <Route  path="/register" element={<Register />}/>
         <Route  path="/news" element={<News />}/>
