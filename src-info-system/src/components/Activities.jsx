@@ -26,16 +26,19 @@ const Activities = () => {
               </div>
             </div>
           </div>
-
+          
+          
           <div class="col-lg-4 mb-4">
+            <Link to="/timetable" style={{textDecoration:"none"}}>
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
               <i style={largeIcon} class="bi bi-calendar4-week "></i>
-              <div class="card-body">
+              <div class="card-body" >
                 <h5 class="card-title">TIME-TABLE</h5>
                 {/* <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
-                <a href="#" class="readmore">Read more </a>*/}
+                <a href="/timetable" class="readmore">Read more </a>*/}
               </div> 
             </div>
+            </Link>
           </div>
 
           

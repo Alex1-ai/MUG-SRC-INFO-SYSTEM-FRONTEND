@@ -13,6 +13,7 @@ import { BrowserRouter as Router ,
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import News from "./pages/News";
+import Timetable from "./pages/activitiesPages/Timetable";
 
 function App() {
   const user=true;
@@ -27,6 +28,7 @@ function App() {
         <Route  path="/login" element={user? <Navigate to="/"/> :  <Login />}/>
         <Route  path="/register" element={<Register />}/>
         <Route  path="/news" element={<News />}/>
+        <Route path="/timetable" element={<Timetable/>} />
         
          
       </Routes>
