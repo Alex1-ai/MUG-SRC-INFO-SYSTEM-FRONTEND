@@ -14,6 +14,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import News from "./pages/News";
 import Vote from "./pages/Vote";
+import Timetable from "./pages/Timetable";
 
 function App() {
   const user=true;
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         
         <Route exact path="/" element={ <Home /> }/>
+        <Route path="/timetable" element={<Timetable/>} />
         <Route  path="/dashboard" element={<Dashboard />}/>
         <Route  path="/about" element={<About/>}/>
         <Route  path="/contact" element={<Contact />}/>
