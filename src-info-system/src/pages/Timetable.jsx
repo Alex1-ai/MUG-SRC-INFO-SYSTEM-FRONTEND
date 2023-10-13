@@ -13,14 +13,14 @@ const Timetable = () => {
         <NavBar />
       </section>
 
-      <section id="timetable" className="bg-primary text-white py-5 pb-3">
+      <section id="timetable" className=" text-white py-5 pb-3">
         <div className="container">
           <header className="section-header pb-3 pt-3 text-center">
             <h3 className="pt-4"><b>Faculty Timetables</b></h3>
           </header>
 
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div className="col mb-4">
+            <div className="col mb-4 ">
               <div className="card" data-aos="zoom-in" data-aos-delay="200">
               <div className="card-body d-flex flex-column align-items-center justify-content-center">
                 <i style={largeIcon} className="bi bi-mortarboard"></i>
