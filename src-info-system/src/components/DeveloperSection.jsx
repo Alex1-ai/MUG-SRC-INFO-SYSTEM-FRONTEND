@@ -17,7 +17,7 @@ const DeveloperSection = () => {
            {data.map((dev)=><>
             <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="400">
             <div class="member">
-              <img src="assets/img/mypics2.png" class="img-fluid" alt=""/>
+              <img src={dev?.image} class="img-fluid" alt=""/>
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>{dev?.name}</h4>

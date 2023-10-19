@@ -15,6 +15,7 @@ import Register from "./pages/Register";
 import News from "./pages/News";
 import Vote from "./pages/Vote";
 import Timetable from "./pages/Timetable";
+import Madoh from "./pages/Madoh";
 
 function App() {
   const user=true;
@@ -28,6 +29,7 @@ function App() {
         <Route  path="/about" element={<About/>}/>
         <Route  path="/contact" element={<Contact />}/>
         <Route  path="/vote" element={<Vote />}/>
+        <Route path="/newsId" element={<Madoh/>} />
 
         <Route  path="/login" element={user? <Navigate to="/"/> :  <Login />}/>
         <Route  path="/register" element={<Register />}/>
