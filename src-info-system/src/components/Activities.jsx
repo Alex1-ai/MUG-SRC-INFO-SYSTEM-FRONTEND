@@ -31,6 +31,7 @@ const Activities = () => {
           </div>
 
           <div class="col-lg-4 mb-4">
+            <Link to="/timetable" style={{textDecoration:"none"}}>
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
               <i style={largeIcon} class="bi bi-calendar4-week "></i>
               <div class="card-body">
@@ -39,12 +40,13 @@ const Activities = () => {
                 <a href="#" class="readmore">Read more </a>*/}
               </div> 
             </div>
+            </Link>
           </div>
 
           
 
           <div class="col-lg-4 mb-4">
-            <Link to="/news">
+            <Link to="/news" style={{textDecoration:"none"}}>
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
               <i style={largeIcon} class="bi bi-chat-square-text"></i>
               <div class="card-body">
@@ -57,7 +59,7 @@ const Activities = () => {
           </div>
 
           <div class="col-lg-4 mb-4">
-            <Link to="/vote">
+            <Link to="/vote" style={{textDecoration:"none"}}>
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
             <i style={largeIcon} class="bi bi-bar-chart-line-fill"></i>
               <div class="card-body">
@@ -71,7 +73,7 @@ const Activities = () => {
 
 
           <div class="col-lg-4 mb-4">
-            <Link to="https://library.mug.edu.gh/">
+            <Link to="https://library.mug.edu.gh/" style={{textDecoration:"none"}}>
               <div class="card" data-aos="zoom-in" data-aos-delay="300">
                 {/* <i style={largeIcon} class="bi bi-chat-square-text"></i> */}
                 <i class="fa fa-university" style={largeIcon} aria-hidden="true"></i>
@@ -99,7 +101,7 @@ const Activities = () => {
           </div>
 
           <div class="col-lg-4 mb-4">
-            <Link to="https://osissip.osis.online/">
+            <Link to="https://osissip.osis.online/" style={{textDecoration:"none"}}>
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
             <i style={largeIcon} class="fas fa-graduation-cap"></i>
               <div class="card-body">

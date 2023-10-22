@@ -14,6 +14,18 @@ const data = [
 
     },
 
+    {
+        name:"Odoi Joseph Cecil",
+        image:"https://avatars.githubusercontent.com/u/88081064?v=4",
+        profession:"Software Engineer",
+        linkedin:"",
+        facebook:"",
+        github:"https://github.com/Joseph-Cecil",
+        twitter:""
+
+
+    },
+
 ]
 
 
