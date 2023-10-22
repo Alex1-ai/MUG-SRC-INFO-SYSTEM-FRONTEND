@@ -1,6 +1,6 @@
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/account/Dashboard";
 import Home from "./pages/Home";
 import { BrowserRouter as Router ,
   Routes, Route, 
@@ -10,8 +10,8 @@ import { BrowserRouter as Router ,
   
   Navigate
 } from 'react-router-dom'
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Login from "./pages/account/Login";
+import Register from "./pages/account/Register";
 import News from "./pages/News";
 import Vote from "./pages/Vote";
 

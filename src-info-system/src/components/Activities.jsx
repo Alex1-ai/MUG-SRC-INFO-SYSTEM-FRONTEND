@@ -5,6 +5,7 @@ const Activities = () => {
     const largeIcon =  {
         fontSize: "5rem",/* Adjust the size as needed */
     }
+    
   return (
     <>
      <section id="why-us">
@@ -85,7 +86,7 @@ const Activities = () => {
           </div>
 
           <div class="col-lg-4 mb-4">
-            <Link to="https://alexis.onrender.com">
+            <Link to="https://alexis.onrender.com/service/Methodist-University-Shops">
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
             <i style={largeIcon} class="fas fa-utensils"></i>
               <div class="card-body">
