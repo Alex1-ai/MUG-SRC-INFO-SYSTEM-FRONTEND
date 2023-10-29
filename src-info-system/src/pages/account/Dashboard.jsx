@@ -43,7 +43,7 @@ const Dashboard = () => {
 <div class="container">
     <div class="row">
    {/* {% include 'dashboard_sidebar.html' %} */}
-    <DashboardSideBar />
+    <DashboardSideBar name={"Dashboard"}/>
     <main class="col-md-9 pt-4">
         <article class="card">
         <header class="card-header">
@@ -59,7 +59,7 @@ const Dashboard = () => {
                                 Current Level
                             </h5>
                             <h4>400</h4>
-                            <a href="{% url 'my_orders' %}"> Edit Profile</a>
+                            <Link to="/edit-profile"> Edit Profile</Link>
                         </div>
                     </div>
                 </div>

@@ -1,33 +1,27 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const DashboardSideBar = () => {
-    const buttonWidth = {
-        width:"200px"
-    }
+const DashboardSideBar = ({ name }) => {
+  const buttonWidth = {
+    width: "200px"
+  };
+
   return (
     <>
-        <aside class="col-md-3">
-    {/* <!--   SIDEBAR   --> */}
-    <ul class="list-group">
-        <a class="list-group-item active " href="/dashboard"> Dashboard</a>
-        
-        <a class="list-group-item {% if '/edit_profile/' in request.path%}active {% endif %}" href="{% url 'edit_profile' %}">Edit Profile</a>
-        <a class="list-group-item  {% if '/my_orders/' in request.path%}active {% endif %}" href="{% url 'my_orders' %}">Terms & Conditions</a>
-        <a class="list-group-item   {% if '/change_password/' in request.path%}active {% endif %}" href="{% url 'change_password' %}" >Change Password </a>
-        {/* <!-- <a class="list-group-item" href="#"> My Selling Items </a> */}
-        {/* <a class="list-group-item" href="#"> Received orders </a> --> */}
-    </ul>
-    {/* <br/> */}
-    {/* <div class="col-md-6"> */}
-    <a class="btn btn-danger btn-block" style={buttonWidth} href="{% url 'logout' %}"> <i class="fa fa-power-off"></i> <span class="text">Log out</span> </a> 
-    {/* </div> */}
-    {/* <!--   SIDEBAR .//END   --> */}
-   
-</aside>
-
-      
+      <aside className="col-md-3">
+        {/* SIDEBAR */}
+        <ul className="list-group">
+          <Link className={`list-group-item ${name === "Dashboard" ? "active" : ""}`} to="/dashboard"> Dashboard</Link>
+          <Link className={`list-group-item ${name === "Edit Profile" ? "active" : ""}`} to="/edit-profile">Edit Profile</Link>
+          <Link className={`list-group-item ${name === "Terms & Conditions" ? "active" : ""}`} to="/terms&condition">Terms & Conditions</Link>
+          <Link className={`list-group-item ${name === "Change Password" ? "active" : ""}`} to="/change-password">Change Password</Link>
+        </ul>
+        {/* Logout button */}
+        <a className="btn btn-danger btn-block" style={buttonWidth} href="{% url 'logout' %}"> <i className="fa fa-power-off"></i> <span className="text">Log out</span> </a>
+        {/* SIDEBAR .//END */}
+      </aside>
     </>
-  )
+  );
 }
 
-export default DashboardSideBar
+export default DashboardSideBar;

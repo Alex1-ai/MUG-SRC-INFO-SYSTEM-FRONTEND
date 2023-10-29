@@ -60,7 +60,7 @@ const Footer = () => {
 
             <div className="container">
             <div className="copyright">
-                &copy; Copyright <strong>MUG SRC</strong>. All Rights Reserved
+                &copy; Copyright <strong>Boostrapmade</strong>. All Rights Reserved
             </div>
             <div className="credits">
                 {/* <!--
@@ -69,7 +69,7 @@ const Footer = () => {
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
             --> */}
-                Designed by <a href="#">MUG Methodist University Students (Open-Source Project)</a>
+                Designed by <a href="#">MUITSA  Methodist University Information Technology Students Association (Open-Source Project) . Directed by Onedibe</a>
             </div>
         </div>
     </footer>
