@@ -48,9 +48,9 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
                             <p> 
-                                Methodist University Ghana is here to inform you all about the change in the schools way of publishing information to both
-                            studentS and staff. GDSC has help develop this very app to help the reach of information to the students in the easilers way.
-                            
+                            Greetings! Methodist University Ghana is pleased to announce a new approach to disseminating information to 
+                            our esteemed students and staff. We have developed an innovative app that will make it easier for you to stay up-to-date with the latest news and events happening on campus. By subscribing to this platform, you will have access to all the information you need, right at your fingertips.
+                             We look forward to your continued engagement with us. Thank you!
                     
                             </p> 
                             <form action="" method="post">
