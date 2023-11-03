@@ -47,7 +47,12 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                            <p> 
+                            Greetings! Methodist University Ghana is pleased to announce a new approach to disseminating information to 
+                            our esteemed students and staff. We have developed an innovative app that will make it easier for you to stay up-to-date with the latest news and events happening on campus. By subscribing to this platform, you will have access to all the information you need, right at your fingertips.
+                             We look forward to your continued engagement with us. Thank you!
+                    
+                            </p> 
                             <form action="" method="post">
                                    <input type="email" name="email"></input>
                                     <input type="submit" value="Subscribe" ></input>
