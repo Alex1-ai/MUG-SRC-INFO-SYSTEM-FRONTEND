@@ -47,7 +47,12 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                            <p> 
+                                Methodist University Ghana is here to inform you all about the change in the schools way of publishing information to both
+                            studentS and staff. GDSC has help develop this very app to help the reach of information to the students in the easilers way.
+                            
+                    
+                            </p> 
                             <form action="" method="post">
                                    <input type="email" name="email"></input>
                                     <input type="submit" value="Subscribe" ></input>
