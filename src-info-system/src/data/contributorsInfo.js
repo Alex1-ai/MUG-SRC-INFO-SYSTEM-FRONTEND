@@ -30,7 +30,7 @@ const data = [
         image:"https://avatars.githubusercontent.com/u/143666072?s=400&u=001ccfa82337c458776dce185d196f32e29339fc&v=4",
         profession:"Software Engineer & Programmer",
         linkedin:"https://www.linkedin.com/in/ameho-emmanuel-73ab6a268?",
-        facebook:"",
+        facebook:"https://www.facebook.com/emmanuel.ameho.77",
         github:"https://github.com/Amehoemma",
         twitter:""
 
