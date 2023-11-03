@@ -50,7 +50,7 @@ const Footer = () => {
                             <p> 
                                 Methodist University Ghana is here to inform you all about the change in the schools way of publishing information to both
                             studentS and staff. GDSC has help develop this very app to help the reach of information to the students in the easilers way.
-                            
+                            To constantly receive information from this plateform, Subscribe and all activities will be at your doorstep.
                     
                             </p> 
                             <form action="" method="post">
