@@ -34,8 +34,6 @@ const data = [
         github:"https://github.com/Amehoemma",
         twitter:""
 
-
-    },
 ]
 
 
