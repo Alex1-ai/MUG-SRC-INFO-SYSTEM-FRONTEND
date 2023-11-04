@@ -11,7 +11,7 @@ const Footer = () => {
 
                         <div className="col-lg-4 col-md-6 footer-info">
                             <h3>MUG SRC</h3>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                            <p>Methodist University has seen significant growth and transformation since its amalgamation, resulting in numerous positive impacts. In light of this, the Student Representative Council, in collaboration with the university, has developed an application designed to assist students in effortlessly navigating the campus and accessing vital information and notifications.</p>
                         </div>
 
                         <div className="col-lg-2 col-md-6 footer-links">

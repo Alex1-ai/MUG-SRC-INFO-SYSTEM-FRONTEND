@@ -10,7 +10,7 @@ const data = [
         facebook:"",
         github:"https://github.com/Alex1-ai",
         twitter:"https://twitter.com/Alexand75370569"
-
+       
 
     },
 
@@ -33,7 +33,16 @@ const data = [
         facebook:"https://www.facebook.com/emmanuel.ameho.77",
         github:"https://github.com/Amehoemma",
         twitter:""
-
+    },
+    {
+        name:"Akintola Timilehin",
+        image:"https://avatars.githubusercontent.com/u/131992270?v=4",
+        profession:"Full Stack Developer, Graphic designer",
+        linkedin:" https://www.linkedin.com/in/akintola-timilehin-a85502232/",
+        facebook:" https://web.facebook.com/hhbndjjkks.chhdjdkxkdicy.1/",
+        github:"https://github.com/Timweb0",
+        twitter:"https://twitter.com/AkintolaTi4335"
+    },
 ]
 
 
