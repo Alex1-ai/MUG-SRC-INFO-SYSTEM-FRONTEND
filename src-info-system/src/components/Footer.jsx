@@ -11,7 +11,7 @@ const Footer = () => {
 
                         <div className="col-lg-4 col-md-6 footer-info">
                             <h3>MUG SRC</h3>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                            <p>Methodist University has seen significant growth and transformation since its amalgamation, resulting in numerous positive impacts. In light of this, the Student Representative Council, in collaboration with the university, has developed an application designed to assist students in effortlessly navigating the campus and accessing vital information and notifications.</p>
                         </div>
 
                         <div className="col-lg-2 col-md-6 footer-links">
@@ -47,7 +47,12 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                            <p> 
+                            Greetings! Methodist University Ghana is pleased to announce a new approach to disseminating information to 
+                            our esteemed students and staff. We have developed an innovative app that will make it easier for you to stay up-to-date with the latest news and events happening on campus. By subscribing to this platform, you will have access to all the information you need, right at your fingertips.
+                             We look forward to your continued engagement with us. Thank you!
+                    
+                            </p> 
                             <form action="" method="post">
                                    <input type="email" name="email"></input>
                                     <input type="submit" value="Subscribe" ></input>
