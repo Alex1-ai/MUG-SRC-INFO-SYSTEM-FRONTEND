@@ -27,7 +27,7 @@ const navLinkStyle = {
             <Link style={navLinkStyle}to="/">Home</Link> {/* Use Link for the Nav links */}
             <Link style={navLinkStyle} to="/news">News</Link>
             <Link style={navLinkStyle} to="/about">About</Link>
-            <Link style={navLinkStyle} to="/dashboard">Profile</Link>
+            <Link style={navLinkStyle} to="/dashboard">Dashboard</Link>
             <Link style={navLinkStyle} to="/login">Login</Link>
             <Link style={navLinkStyle} to="/logout">Logout</Link>
             <Link style={navLinkStyle} to="/contact">Contact</Link>
