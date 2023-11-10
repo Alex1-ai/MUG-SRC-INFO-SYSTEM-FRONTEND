@@ -43,6 +43,15 @@ const data = [
         github:"https://github.com/Timweb0",
         twitter:"https://twitter.com/AkintolaTi4335"
     },
+    {
+        name:"Matthew Princess Chikodinaka",
+        image:"https://avatars.githubusercontent.com/u/146371320?s=400&u=19d449b633dfe8139b2645ef0d09c726eab64d1d&v=4",
+        profession:"Software Engineer, Graphic designer",
+        linkedin:"https://www.linkedin.com/in/princess-chikodinaka-b57787293/",
+        facebook:"https://www.facebook.com/Richardson.davi11/",
+        github:"https://github.com/chi-kodi",
+        twitter:"https://x.com/chichi212100?t=gxRReQTbVCavcG7D5qe9ag&s=09"
+    },
 ]
 
 
