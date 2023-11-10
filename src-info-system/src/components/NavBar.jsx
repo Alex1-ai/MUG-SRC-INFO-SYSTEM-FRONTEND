@@ -29,7 +29,7 @@ const navLinkStyle = {
             <Link style={navLinkStyle} to="/about">About</Link>
             <Link style={navLinkStyle} to="/dashboard">Profile</Link>
             <Link style={navLinkStyle} to="/login">Login</Link>
-            <Link style={navLinkStyle} to="/logout">Logout</Link>
+            <Link style={navLinkStyle} to="/register">Register</Link>
             <Link style={navLinkStyle} to="/contact">Contact</Link>
           </Nav>
           <Nav className="mr-auto">
